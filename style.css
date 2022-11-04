@@ -1,0 +1,201 @@
+html{
+    background: url(./weather.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+}
+#zip{
+    border-radius: 4vh;
+    background-color: #444;
+    opacity: 0.9;
+    text-align: center;
+    color: white;
+    align-self: center;
+    margin: 2vh;
+
+}
+#app{
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns:  */
+    height:100vh;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.holder.headline{
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    border-bottom-left-radius: 6vh;
+    border-bottom-right-radius: 6vh ;
+
+}
+
+
+#temp::after,#temp{
+    font-size: 40px;
+    content: ' \2103';
+    font-weight: 500;
+
+
+}
+.cardname{
+    font-size: 40px;
+    font-weight: bolder;
+    
+
+}
+
+#date{
+    font-size: 30px;
+    font-weight: 300;
+
+}
+
+#city{
+    font-size: 40px;
+    content: ' \2103';
+    font-weight: 500
+
+}
+.feeling{
+    font-size: 20px ;
+    font-weight: bold;
+}
+
+#content{   
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+
+.data {
+    display: flex;
+    justify-content: space-between;
+
+}
+#feelings{
+    height: auto;
+    width: auto;
+    min-width: 320px;
+    min-height: 60px;
+    margin: 2vh;
+    padding: 1px 2px;
+    
+}
+.title{
+    color: black;
+    text-align: center;
+    background-color: lightgray;
+    opacity: 0.75;
+    height: auto;
+    margin: 10vh;
+    display: none;
+    flex-direction: column;
+    padding: 3vh;
+
+
+}
+
+.app-body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20vh;
+    justify-content: space-between;
+}
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+    color: white;
+}
+.holder.feel{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 320px;
+    background: transparent;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+.holder.zip{
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 400px;
+    color: white;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+    background-color: black;
+    padding: .6vh;
+    border-radius: 4vh;
+}
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 4vh;
+    background-color: #444;
+    opacity: 0.9;
+    text-align: center;
+    color: white;
+    
+}
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: white; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: white; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: white; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+ 
