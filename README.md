@@ -1,4 +1,5 @@
 # Weather-Journal App Project
+* backend (server side) Code built using Nodejs framework
 * A weather forcasting that fetches weather data using zip code (works in USA only),
 * it uses api from openweathermap.org to get the weather data
 * Dynamic frontend built using ES6 Javascript plus HTML/CSS
