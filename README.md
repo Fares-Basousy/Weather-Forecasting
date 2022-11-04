@@ -1,5 +1,7 @@
 # Weather-Journal App Project
-
-##i updated the ui so it would be more visually acceptable
-## you will see that im using many await keywords because if an async function is used as a parameter of a normal function, the normal function wont wait and will execute, thats why i did these many awaits
+*A weather forcasting that fetches weather data using zip code (works in USA only),
+*it uses api from openweathermap.org to get the weather data
+*Dynamic frontend built using ES6 Javascript plus HTML/CSS
+*pop-up shows when data is ready to display and has an erorr handling system which informs the client whether the  zip code is unvalid
+or the zip code is not found
 
